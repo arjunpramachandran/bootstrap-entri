@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card:hover{
+    background-color: rgba(240, 237, 237, 0.562);
+    
+    
+}
+.card{
+    overflow: hidden;
+}
+
+
+.card:hover img {  
+    transform: scale(1.06); /* Scale the image up */  
+    overflow: hidden;
+    transition: all .5s;
+}
